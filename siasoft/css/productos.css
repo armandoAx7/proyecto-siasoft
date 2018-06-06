@@ -40,6 +40,9 @@ p.descr {
 .card-body {
   padding: 1rem;
 }
+.card-img-top {
+  height: 200px;
+}
 .card-footer {
   background-color: #fff;
   border-top: 0px;
