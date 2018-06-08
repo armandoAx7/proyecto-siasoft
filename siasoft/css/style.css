@@ -9,6 +9,14 @@ body {
       font-weight: lighter;
 }
 
+.body2{
+    width: 100%;
+      height: 100vh;
+      background: url(../imgs/hero4.jpg) no-repeat ;
+      background-size: cover;
+    
+}
+
 header {
       width: 100%;
       height: 100vh;
@@ -39,7 +47,7 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
-     background: rgba(52, 57, 103, 0.4);
+     background: rgba(0, 0, 0, 0.7);
 }
 
 nav ul {
@@ -81,12 +89,12 @@ nav ul li a:hover {
 .menu-icon {
       line-height: 60px;
       width: 100%;
-      background: #000;
+      background: rgba(0,0,0,0.4);
       text-align: right;
       box-sizing: border-box;
       padding: 15px 24px;
       cursor: pointer;
-      color: #000;
+      color: #fff;
       display: none;
 }
 
@@ -100,11 +108,11 @@ nav ul li a:hover {
 
       nav ul {
             max-height: 0px;
-            background: #000;
+            background: rgba(0,0,0,0.4);
       }
 
       nav.black ul {
-            background: #000;
+            background: rgba(0,0,0,0.4);
       }
 
       .showing {
@@ -266,4 +274,120 @@ slide p{
      100%{left: 100%;width: 0%;}
     
     
+}
+
+
+
+.section-title strong {
+	color: #00C6D7;
+  	font-size: 56px;
+}
+
+.section-title h1 {
+	font-size: 24px;
+}
+
+.section-title {
+  padding-bottom: 32px;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}
+
+#work,#about, #team, 
+#portfolio, #pricing, #contact {
+   padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+/* ==========================================================================
+work section
+========================================================================== */
+#work {
+    text-align: center;
+}
+#work .col-md-4 {
+  padding: 28px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+#work .col-md-4:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+}
+#work h3 {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+footer section
+========================================================================== */
+footer {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+footer p {
+  padding-top: 20px;
+}
+.social-icon {
+  padding: 0;
+  margin: 0;
+}
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+  padding: 6px;
+}
+.social-icon li a {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
+  color: #808080;
+  font-size: 20px;
+  width: 56px;
+  height: 56px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.social-icon li a:hover {
+  color: #00c6d7;
+}
+
+@media screen and (min-width: 992px) {
+  @-moz-document url-prefix() {
+    #portfolio .col-lg-4,
+    #portfolio .col-md-4 {
+      width: 33.333%;
+    }
+  }    
+}
+
+/* ==========================================================================
+media quires for mobile
+========================================================================== */
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
 }

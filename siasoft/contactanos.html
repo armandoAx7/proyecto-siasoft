@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>SiaSoft||Directorio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+         <link rel="Shortcut Icon" type="image/x-icon" href="images/siasoft.jpg" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" >
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+
+	</head>
+	<body class="body2" >
+        
+        
+<!-- menu navegacion  -->
+		       <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                  
+                        <div class="logo">
+                            <img src="imgs/logo.png" height="75px" width="80px">
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Quienes somos</a></li>
+                                    <li><a href="#">Directorio</a></li>
+                                    <li><a href="#">Productos</a></li>
+                                    <li><a href="#">Contactanos</a></li>
+                                   <li><a href="#">Descargas</a></li>
+                                   <li><a href="#">soporte</a></li>
+                                  <li><a href="#">intro</a></li>
+                                  <li><a href="#" style="color:#F6FC09">Entrar</a></li>
+                                  <li><a href="#" style="color:#F6FC09">buzon</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+ 
+
+  
+
+ 
+								
+ 
+ <section id="contact" class="home-section nopadd-bot color-dark bg-white text-center">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+            <div class="section-heading text-center">
+              <h2 class="h-bold">Contactenos</h2>
+              <div class="divider-header"></div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row marginbot-80">
+        <div class="col-md-8 col-md-offset-2">
+         
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="nombre" class="form-control" id="nombre" placeholder="escribe tu nombre" />
+              <div class="validation"></div>
+            </div>
+              <div class="form-group">
+              <input type="text" name="asunto" class="form-control" id="asunto" placeholder="escribe tu asunto" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="escribe tu email" data-rule="email" data-msg="Por favor introduce un mensaje valido" />
+              <div class="validation"></div>
+            </div>
+              <div class="form-group">
+              <input type="tel" class="form-control" name="telefono" id="telefono" placeholder="escribe tu numero telefonico"  />
+              <div class="validation"></div>
+            </div>
+           
+            <div class="form-group">
+              <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Por favor escribe tu mensaje" placeholder="Mensaje"></textarea>
+              <div class="validation"></div>
+            </div>
+
+            <div class="text-center"><button type="submit" class="btn btn-skin btn-lg btn-block">Enviar</button></div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+   
+      
+  
+    
+  
+  
+                   
+    
+   
+   
+       
+   
+    
+       
+				<!-- Footer -->
+					
+<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+ <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+                
+                 
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.superslides.js"></script>
+           <script src="js/slide.js"></script>
+        
+  <script src="js/jquery.nivo.slider.js"></script>
+        <script type="text/javascript"> 
+		$(window).on('load', function() {
+		    $('#slider').nivoSlider(); 
+		}); 
+	</script>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
+	</body>
+</html>
