@@ -3,7 +3,7 @@ body {
 }
 nav { z-index: 1; }
 h1, h2, h3, h4, h5 {
-  color: #1c3643;
+  color: #fff;
   font-family: 'Cabin', sans-serif;
   font-weight: 700;
   text-align: center;
@@ -34,7 +34,7 @@ h3 {
   height: 500px;
 }
 p.descr {
-  color: #757575;
+  color: #fff;
   display: block;
   font-family: 'Cabin', sans-serif;
   font-size: 20px;
@@ -50,7 +50,7 @@ div#features {
   margin-bottom: 30px;
 }
 ul {
-  color: #1c3643;
+  color: #fff;
   font-size: 20px;
 }
 ul li {
