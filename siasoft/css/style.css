@@ -8,6 +8,26 @@ body {
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
 }
+.video-responsive {
+position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:15%;
+		left:15%;
+		/*determinamos una anchura*/
+		width:70%;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		
+		/*determinamos una altura*/
+		height:40%;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+	
+	
+
+
+}
+
+
+
 
 .body2{
     width: 100%;
@@ -48,6 +68,7 @@ nav {
       width: 100%;
       line-height: 60px;
      background: rgba(0, 0, 0, 0.7);
+    z-index:1 ;
 }
 
 nav ul {
