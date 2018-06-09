@@ -16,7 +16,7 @@ h3 {
 }
 .container { margin-bottom: 10%; }
 #main_content {
-  margin-top: 11%;
+  margin-top: 120px;
 }
 .embed-responsive {
   height: 400px;
@@ -46,8 +46,8 @@ p.descr {
   word-wrap: normal;
 }
 div#features {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 ul {
   color: #1c3643;

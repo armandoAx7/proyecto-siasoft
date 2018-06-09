@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5 {
 }
 .container { margin-bottom: 10%; }
 #main_content {
-  margin-top: 10%;
+  margin-top: 120px;
 }
 p.descr {
   color: #757575;
@@ -25,7 +25,7 @@ p.descr {
   word-wrap: normal;
 }
 .card-deck, div#last_item {
-  margin-top: 2%;
+  margin-top: 23px;
 }
 .card {
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
