@@ -56,3 +56,6 @@ ul {
 ul li {
   margin-bottom: 8px;
 }
+ul li a {
+  color: #0d47a1;
+}
